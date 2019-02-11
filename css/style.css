@@ -1,0 +1,70 @@
+/*whole map*/
+html, body, #map {
+    height: 100%;
+    width: 100%;
+}
+
+/* browser adds margin by default, and that adds a scrollbar, but we don't want that*/
+body {
+    margin: 0;
+}
+
+/*title div of map */
+#title {
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    background-color: rgba(167, 199, 210, 0.65);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#about-louise {
+    display: block;
+    position: fixed;
+    left: 15px;
+    bottom: 0;
+    border-radius: 4px;
+    height: 80px;
+    width: 180px;
+    z-index: 100000;
+    background-color: rgba(167, 199, 210, 0.65);
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: 3em;
+    color: rgba(51, 51, 51, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*makes the about Louise href not look like a link */
+#about-louise:hover {
+    text-decoration: none;
+    background-color: rgba(167, 199, 210, 0.95);
+}
+
+
+/* about-agsl div */
+#about-agsl {
+    display: block;
+    position: fixed;
+    left: 200px;
+    bottom: 0;
+    border-radius: 4px;
+    height: 60px;
+    width: 100px;
+    z-index: 100000;
+    background-color: rgba(206, 101, 8, 0.65);
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    color: rgba(51, 51, 51, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
