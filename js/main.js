@@ -92,7 +92,7 @@ function getData(map){
 //        $('#about-louise').hide();
 //      }
 //    } 到这里为止的注释
-    });
+    })
 
     // var opacitySlider = L.control({position: 'bottomright'});
     // opacitySlider.onAdd = function (map) {
